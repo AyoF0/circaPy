@@ -220,16 +220,6 @@ def plot_activity_profile(data,
                           resample_freq="h",
                           *args,
                           **kwargs):
-def plot_activity_profile(
-    data,
-    col=0,
-    light_col=-1,
-    subplot=None,
-    resample=False,
-    resample_freq="h",
-    *args,
-    **kwargs,
-):
     """
     Plot the activity profile with mean and SEM (Standard Error of the Mean).
     Optionally resample the data before plotting.
